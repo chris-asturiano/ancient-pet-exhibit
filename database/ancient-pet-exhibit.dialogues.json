@@ -1,0 +1,42 @@
+[{
+  "_id": {
+    "$oid": "66013cb1e5502bd29f454a66"
+  },
+  "name": "intro-2",
+  "sprite": "dave_frantic.jpg",
+  "text": "H-hey there, a new visitor! Many apologies, but until I get all of this under control, I am afraid the exhibit is closed... unless...",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66013cb1e5502bd29f454a65"
+  },
+  "name": "intro-1",
+  "sprite": "dave_frantic.jpg",
+  "text": "Oh no! I forgot to lock up last night and all the animals got loose! The exhibit is about to open and-",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660142bd512221e1d624ce2f"
+  },
+  "name": "intro-0",
+  "sprite": "default.jpg",
+  "text": "*You hear fast footsteps approaching you at the entrance of the exhibit.*"
+},
+{
+  "_id": {
+    "$oid": "660144bb512221e1d624ce31"
+  },
+  "name": "intro-3",
+  "sprite": "dave_happy.jpg",
+  "text": "Would you like to help me find all of the missing creatures? I would greatly appreciate your help- you could even explore the exhibit for free!"
+},
+{
+  "_id": {
+    "$oid": "66014741512221e1d624ce33"
+  },
+  "name": "intro-4",
+  "sprite": "dave_happy.jpg",
+  "text": "That's great! But first, where are my manners? What is your name, sweetheart?"
+}]

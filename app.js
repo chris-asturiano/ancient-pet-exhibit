@@ -18,9 +18,11 @@ app.use(session({ //session baybe
 
 //Routes
 const introRoute = require('./routes/intro')
+const homeRoute = require('./routes/home')
 
 //Routes - Pages
 app.use('/', introRoute)
+app.use('/home', homeRoute)
 
 app.engine("hbs", exphbs.engine({extname: 'hbs'}));
 app.set("view engine", "hbs")//set default file extenstion for views as .hbs
