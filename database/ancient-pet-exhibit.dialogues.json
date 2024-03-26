@@ -39,4 +39,36 @@
   "name": "intro-4",
   "sprite": "dave_happy.jpg",
   "text": "That's great! But first, where are my manners? What is your name, sweetheart?"
+},
+{
+  "_id": {
+    "$oid": "660282f23b9fb17de20ebd56"
+  },
+  "name": "about-1",
+  "sprite": "dave_explain.jpg",
+  "text": "Enter any of our lovely exhibits, and [insert mechanic]."
+},
+{
+  "_id": {
+    "$oid": "6602833d3b9fb17de20ebd58"
+  },
+  "name": "about-2",
+  "sprite": "dave_explain.jpg",
+  "text": "If you manage to find a new pet, you can click on them to read a bit of information about their breed."
+},
+{
+  "_id": {
+    "$oid": "6602836a3b9fb17de20ebd5a"
+  },
+  "name": "about-3",
+  "sprite": "dave_happy.jpg",
+  "text": "Now, let us continue the search!"
+},
+{
+  "_id": {
+    "$oid": "660285c03b9fb17de20ebd5c"
+  },
+  "name": "about-0",
+  "sprite": "dave_happy.jpg",
+  "text": "Hello there, ! Are you here to ask for guidance?"
 }]
