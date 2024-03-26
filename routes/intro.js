@@ -23,18 +23,19 @@ router.post('/next', async (req, res) => {
 
 router.post('/name', async (req, res) => {
     try{
-        const name = req.body;
-        let stringname = JSON.parse(name)
+        const name = req.body.name;
+        const newProgress = new Progress({username: name})
         const newUser = new User({
-            username: stringname.name,
-            progress: new Progress({username: stringname.name})
+            username: name,
+            progress: newProgress
         });
-        const existingUser = await User.findOne({name});
+        const existingUser = await User.findOne({name: name});
         if(existingUser){
             console.log("Returning User");
             req.session.userId = existingUser._id;
         }
         else{
+            await newProgress.save();
             await newUser.save();
             console.log("New User");
             console.log(newUser);
@@ -42,7 +43,7 @@ router.post('/name', async (req, res) => {
         }
         console.log('User in Session');
         
-        res.redirect('/home');
+        res.sendStatus(200);
         
     } catch (e){
         console.log(e);

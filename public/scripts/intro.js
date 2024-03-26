@@ -43,7 +43,7 @@ $(document).ready(function() {
             name: name
         },
         function(data, status) {
-
+            if (status == 'success') window.location.href = '/home';
         })
     });
 

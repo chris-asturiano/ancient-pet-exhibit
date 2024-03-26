@@ -10,7 +10,39 @@
     
 </div>
 <div class="position-absolute top-0 end-0">
-    <img src="assets/dave_reception.png" alt="dave_reception.png" id="dave" style="height: 100dvh;">
+    <button type="button" data-bs-toggle="modal" data-bs-target="#aboutModal" id="about-btn">
+        <img src="assets/dave_reception.png" alt="dave_reception.png" id="dave" style="height: 100dvh;">
+    </button>
 </div>
 
+<!-- Modal -->
+<div class="modal fade" id="aboutModal" tabindex="-1" aria-labelledby="aboutModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="introModalLabel">
+          <img src="assets/default.jpg" alt="default.jpg" id="sprite" style="width: 20ch;">
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="leave-btn">Leave</button>
+        <button type="button" class="btn btn-primary" id="next-btn">Continue</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<input type="text" name="userId" id="userId" value="" hidden="true">
+
 <script src="scripts/home.js"></script>
+
+<style>
+    #about-btn {
+        background: none;
+        border: none;
+    }
+</style>
