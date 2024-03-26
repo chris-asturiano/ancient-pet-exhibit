@@ -29,7 +29,7 @@ router.post('/name', async (req, res) => {
             username: name,
             progress: newProgress
         });
-        const existingUser = await User.findOne({name: name});
+        const existingUser = await User.findOne({username: name});
         if(existingUser){
             console.log("Returning User");
             req.session.userId = existingUser._id;
