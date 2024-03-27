@@ -17,12 +17,14 @@ app.use(session({ //session baybe
 })); //session expires when closed browser, add cookie->Max age if we want it timed
 
 //Routes
-const introRoute = require('./routes/intro')
-const homeRoute = require('./routes/home')
+const introRoute = require('./routes/intro');
+const homeRoute  = require('./routes/home');
+const doggoRoute = require('./routes/doggos');
 
 //Routes - Pages
-app.use('/', introRoute)
-app.use('/home', homeRoute)
+app.use('/',        introRoute);
+app.use('/home',    homeRoute);
+app.use('/doggos',  doggoRoute);
 
 app.engine("hbs", exphbs.engine({extname: 'hbs'}));
 app.set("view engine", "hbs")//set default file extenstion for views as .hbs

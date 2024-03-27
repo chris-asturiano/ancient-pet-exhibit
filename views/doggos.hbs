@@ -1,0 +1,111 @@
+<div id="interactables">
+    <button type="button" data-bs-toggle="modal" data-bs-target="#doggoModal" class="modal-btn">
+        <img src="assets/doggos/doggo_4.png" alt="doggo_4.png" id="doggo_4" class="interact">
+    </button>
+    <button type="button" data-bs-toggle="modal" data-bs-target="#doggoModal" class="modal-btn">
+        <div id="layer-1">
+            <img src="assets/doggos/doggo_1.png" alt="doggo_1.png" id="doggo_1" class="interact">
+        </div>
+    </button>
+    <button type="button" data-bs-toggle="modal" data-bs-target="#doggoModal" class="modal-btn">
+        <img src="assets/doggos/doggo_2.png" alt="doggo_2.png" id="doggo_2" class="interact">
+    </button>
+    <button type="button" data-bs-toggle="modal" data-bs-target="#doggoModal" class="modal-btn">
+        <img src="assets/doggos/doggo_3.png" alt="doggo_3.png" id="doggo_3" class="interact">
+    </button>
+    <button type="button" data-bs-toggle="modal" data-bs-target="#doggoModal" class="modal-btn">
+        <img src="assets/doggos/doggo_5.png" alt="doggo_5.png" id="doggo_5" class="interact">
+    </button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="doggoModal" tabindex="-1" aria-labelledby="doggoModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="doggoModalLabel">
+          Dog Breed
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        [Information goes here]
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="close-btn">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+    { margin: 0; padding: 0; }
+
+    body {
+        background-image: url('assets/doggos/doggo_bg.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        min-height: 100vh;
+    }
+
+    .modal-btn {
+        position: absolute;
+        background: none;
+        border: none;
+    }
+
+    .interact {
+        position: absolute;
+        height: 100dvh;
+        width: 100%;
+    }
+
+    #doggo_5 {
+        height: 700px;
+        width: 360px;
+        object-fit: cover;
+        object-position: 0% 50%;
+    }
+
+    #doggo_4 {
+        left: 400px;
+        height: 700px;
+        width: 360px;
+        object-fit: cover;
+        object-position: 30% 0%;
+    }
+
+    #doggo_3 {
+        left: 1100px;
+        height: 700px;
+        width: 350px;
+        object-fit: cover;
+        object-position: 100% 0%;
+    }
+
+    #doggo_2 {
+        left: 900px;
+        height: 700px;
+        width: 400px;
+        object-fit: cover;
+        object-position: 75% 0%;
+    }
+
+    #doggo_1 {
+        position: relative;
+        height: 700px;
+        width: 360px;
+        object-fit: cover;
+        object-position: 40% 0%;
+    }
+
+    #layer-1 {
+        position: absolute;
+        left: 420px;
+        height: 450px;
+        width: 360px;
+        overflow: hidden;
+    }
+</style>
+
+<script src="scripts/doggos.js"></script>
