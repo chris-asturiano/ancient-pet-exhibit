@@ -66,7 +66,7 @@ function fetch_dialogue(dialogue_number) {
         if (status == 404) return;
         $("#sprite").attr("src", "assets/"+data.sprite);
         if (dialogue_number == 0) {
-            await $.get(window.location.href+'/name', function (data) { console.log(data); $("#userId").val(data) });
+            await $.get(window.location.href+'/name', function (data) { $("#userId").val(data) });
             $(".modal-body").text(data.text.slice(0, 13) + $("#userId").val() + data.text.slice(13));
         } else
             $(".modal-body").text(data.text);

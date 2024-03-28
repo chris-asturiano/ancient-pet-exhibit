@@ -1,0 +1,55 @@
+[{
+  "_id": {
+    "$oid": "66054afb649b9550d4a1de6a"
+  },
+  "species": "doggo",
+  "petcode": "doggo_1",
+  "name": "French Bulldog",
+  "description": "Ah, the French Bulldog, with its unmistakably cute flat face that just begs for cuddles! This breed brings so much joy with its low-maintenance nature and affectionate demeanor, making it a perfect fit for cozy homes and small spaces. Sure, they might snore a bit and have a few health quirks, but nothing can dampen their adorable spirit! These little bundles of love are often found snuggled up on their owner's lap, spreading warmth and happiness wherever they go. Who needs a blanket when you have a French Bulldog to keep you cozy?",
+  "in_gallery": 5,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66058867751483f02c559ae9"
+  },
+  "species": "doggo",
+  "petcode": "doggo_3",
+  "name": "Labrador Retriever",
+  "description": "Labrador Retrievers are like bundles of happiness! They’re friendly, smart, and adaptable, making them perfect pals for any family. Whether they’re learning new tricks or splashing in the water, Labs are always up for fun. Just remember to give them lots of playtime and keep an eye on their chewing and eating habits. Did you know that Labs aren’t just great family pets? They’re also amazing helpers! With their intelligence and gentle nature, they excel as guide dogs for the visually impaired, in search and rescue missions, and even as therapy dogs, spreading smiles wherever they go. With a Lab by your side, everyday is a new adventure filled with love!",
+  "in_gallery": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66058ae0a391938d237f323f"
+  },
+  "species": "doggo",
+  "petcode": "doggo_2",
+  "name": "Golden Retriever",
+  "description": "Golden Retrievers bring boundless joy with their friendly, gentle nature, unwavering loyalty, and remarkable intelligence, making them treasured companions for all. Although their shedding, occasional joint issues, and food motivation need some extra care, it's all part of the fun! And here's a delightful fun fact: ever heard of someone being called a \"Golden Retriever\", or having “Golden Retriever Energy”? It's a playful nod to their warm-heartedness, loyalty, and knack for spreading happiness, just like these lovable pups do effortlessly. It's a reminder of the sheer delight they bring into our lives, making every moment brighter and more cheerful!",
+  "in_gallery": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66058c28787b79eed6eb070c"
+  },
+  "species": "doggo",
+  "petcode": "doggo_4",
+  "name": "German Shepherd",
+  "description": "German Shepherds are beacons of joy with their hardworking ethic, eager trainability, and brave hearts, making them extraordinary companions. While their spirited nature, occasional playfulness, and protective instincts might require a bit of guidance, it's all part of their endearing charm! Here's a delightful fact: German Shepherds are among the most beloved breeds in military and police work worldwide! With their sharp minds, adaptability, and unwavering dedication, they excel in tasks like bomb detection and search and rescue missions, bringing safety and security wherever they go.",
+  "in_gallery": 4,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66058d28cdde0c930b5665d0"
+  },
+  "species": "doggo",
+  "petcode": "doggo_5",
+  "name": "Poodle",
+  "description": "Poodles are a joy with their hypoallergenic fur, versatile looks, and playful spirit, making them wonderful companions. Though their grooming needs, occasional separation anxiety, and stubbornness may require some patience, they add character to their lovable nature! Here's an interesting nugget: Poodles have a fascinating history of entertaining in circuses and shows. Renowned for their trainability and striking appearance, they dazzled audiences with their agility and mastery of complex tricks, leaving smiles wherever they performed.",
+  "in_gallery": 4,
+  "__v": 0
+}]
