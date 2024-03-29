@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "devStart": "nodemon app",
-    "stop-dev": "pkill -f 'node.*app' || true"
+    "stop-dev": "pkill -f 'node.*app' 2>/dev/null || true"
+
   },
   "keywords": [],
   "author": "",
