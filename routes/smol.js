@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
 router.get('/:id', async (req, res) => {
     try {
         const petcode = req.params.id;
-        const pet_data = await Pet.findOne({species: 'smol', petcode: petcode});
+        const pet_data = await Pet.findOne({species: 'cheem', petcode: petcode});
         res.send(pet_data);
     } catch (e) {
         console.log(e);

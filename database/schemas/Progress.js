@@ -8,6 +8,18 @@ const ProgressSchema = new mongoose.Schema({
     dogs: {
         type: [Boolean],
         default: [false, false, false, false, false]
+    },
+    cats: {
+        type: [Boolean],
+        default: [false, false, false, false, false]
+    },
+    birds: {
+        type: [Boolean],
+        default: [false, false, false, false, false]
+    },
+    small: {
+        type: [Boolean],
+        default: [false, false, false, false, false]
     }
 })
 
