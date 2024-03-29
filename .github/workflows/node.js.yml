@@ -32,4 +32,4 @@ jobs:
       run: npm run devStart &   
     - name: Wait for server to start
       run: sleep 10              
-    - run: curl http://localhost:3001  
+    - run: curl http://localhost:3000
