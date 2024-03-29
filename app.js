@@ -20,11 +20,17 @@ app.use(session({ //session baybe
 const introRoute = require('./routes/intro');
 const homeRoute  = require('./routes/home');
 const doggoRoute = require('./routes/doggos');
+const cattoRoute = require('./routes/cattos');
+const birdoRoute = require('./routes/birdos');
+const smolRoute  = require('./routes/smol');
 
 //Routes - Pages
 app.use('/',        introRoute);
 app.use('/home',    homeRoute);
 app.use('/doggos',  doggoRoute);
+app.use('/cattos',  cattoRoute);
+app.use('/birdos',  birdoRoute);
+app.use('/smol', smolRoute);
 
 app.engine("hbs", exphbs.engine({extname: 'hbs'}));
 app.set("view engine", "hbs")//set default file extenstion for views as .hbs

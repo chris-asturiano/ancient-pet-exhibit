@@ -1,0 +1,41 @@
+<head><!-- Stylesheet --></head>
+<body>
+<div id="interactables">
+    <button type="button" data-bs-toggle="modal" data-bs-target="#smolModal" class="modal-btn">
+        1
+    </button>
+    <button type="button" data-bs-toggle="modal" data-bs-target="#smolModal" class="modal-btn">
+        2
+    </button>
+    <button type="button" data-bs-toggle="modal" data-bs-target="#smolModal" class="modal-btn">
+        3
+    </button>
+    <button type="button" data-bs-toggle="modal" data-bs-target="#smolModal" class="modal-btn">
+        4
+    </button>
+    <button type="button" data-bs-toggle="modal" data-bs-target="#smolModal" class="modal-btn">
+        5
+    </button>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="smolModal" tabindex="-1" aria-labelledby="smolModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="smolModalLabel">
+          Small Kind <!-- If sticking with breed, might need to change this one up? idk -->
+        </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        [Information goes here]
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" id="close-btn">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="scripts/smol.js"></script>
+</body>

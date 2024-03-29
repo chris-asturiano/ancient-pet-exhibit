@@ -1,5 +1,8 @@
 const dave = $("#dave");
 const doggos_btn = $("#doggos");
+const cattos_btn = $("#cattos");
+const birdos_btn = $("#birdos");
+const smol_btn = $("#smol");
 const about_button = $("#about-btn");
 const next_button = $("#next-btn");
 const leave_button = $("#leave-btn");
@@ -31,14 +34,29 @@ $(document).ready(function() {
             next_button.hide();
         }
     });
-
-    
-
     //Doggos
     doggos_btn.mouseenter(function() { hover(doggos_btn) });
     doggos_btn.mouseleave(function() { unhover(doggos_btn) });
     doggos_btn.click(function() {
         window.location.href = '/doggos';
+    })
+    //El Gato
+    cattos_btn.mouseenter(function() { hover(cattos_btn) });
+    cattos_btn.mouseleave(function() { unhover(cattos_btn) });
+    cattos_btn.click(function() {
+        window.location.href = '/cattos'
+    })
+    //Birds :>
+    birdos_btn.mouseenter(function() { hover(birdos_btn)});
+    birdos_btn.mouseleave(function() { unhover(birdos_btn) });
+    birdos_btn.click(function() {
+        window.location.href = '/birdos'
+    })
+    //Smol uwu
+    smol_btn.mouseenter(function() { hover(smol_btn)});
+    smol_btn.mouseleave(function() { unhover(smol_btn) });
+    smol_btn.click(function() {
+        window.location.href = '/smol'
     })
 });
 
