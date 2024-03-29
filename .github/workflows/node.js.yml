@@ -28,4 +28,15 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run build --if-present
-    - run: npm test
+    - run: npm run devStart &
+    - name: Check if server is running
+      run: |
+        sleep 10 # Adjust the waiting time if needed
+        curl -s http://localhost:3000 | grep "Server listening on port 3000" && curl -s http://localhost:3000 | grep "Connected to MongoDB"
+        if [ $? -eq 0 ]; then
+          echo "Server is running properly."
+          exit 0
+        else
+          echo "Server is not running properly."
+          exit 1
+        fi
